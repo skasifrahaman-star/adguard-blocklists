@@ -1,11 +1,14 @@
-! Title: India Trading-Only Blocklist
-! Description: Brokers, exchanges, crypto, forex, binary options, prop firms, charting, screeners, trading news/education, algo tools
-! Format: AdGuard Home DNS rules (||domain^ also blocks all subdomains)
-! Version: 2026-11-02-v2
-! Lines starting with ! are comments. Optional sections at the bottom are OFF; remove the leading "! " to enable.
+! Title: India Trading-Only Blocklist (Final)
+! Description: Brokers, exchanges, crypto, forex, binary options, prop firms, charting, screeners, IPO/market info, trading education, algo tools. Includes app backend/CDN domains so mobile apps are blocked too.
+! Homepage: https://github.com/skasifrahaman-star/adguard-blocklists
+! Format: AdGuard Home DNS rules. ||domain^ blocks the domain AND all its subdomains (api., app., cdn., www. etc.)
+! Version: 2026-11-02-final
+! Lines starting with ! are comments. Optional section at the bottom is OFF; remove the leading "! " to enable.
 
 ! ===== 1. Indian brokers & trading apps =====
 ||zerodha.com^
+||zerodha.tech^
+||zerodhafundhouse.com^
 ||kite.trade^
 ||streak.tech^
 ||sensibull.com^
@@ -14,6 +17,7 @@
 ||angelone.in^
 ||angelbroking.com^
 ||dhan.co^
+||strike.money^
 ||5paisa.com^
 ||icicidirect.com^
 ||hdfcsec.com^
@@ -47,6 +51,8 @@
 ||miraeassetcm.com^
 ||indmoney.com^
 ||smallcase.com^
+||marketfeed.com^
+||stockgro.club^
 
 ! ===== 2. Exchanges, depositories, index data =====
 ||nseindia.com^
@@ -57,13 +63,14 @@
 ||cdslindia.com^
 ||nsdl.co.in^
 
-! ===== 3. Algo / options / backtesting tools =====
+! ===== 3. Algo / options / backtesting / charting tools =====
 ||tradetron.tech^
 ||algotest.in^
 ||quantman.in^
 ||definedge.com^
-||opstra.definedge.com^
 ||tradingview.com^
+||tradingview-widget.com^
+||niftytrader.in^
 ||metatrader4.com^
 ||metatrader5.com^
 ||mql5.com^
@@ -72,7 +79,7 @@
 ||thinkorswim.com^
 ||quantconnect.com^
 
-! ===== 4. Screeners, charts, market data & analysis =====
+! ===== 4. Screeners, market data, IPO info, news & education =====
 ||screener.in^
 ||tickertape.in^
 ||trendlyne.com^
@@ -82,6 +89,7 @@
 ||equitymaster.com^
 ||tijorifinance.com^
 ||valuepickr.com^
+||tradingqna.com^
 ||moneycontrol.com^
 ||investing.com^
 ||finviz.com^
@@ -97,6 +105,10 @@
 ||tipranks.com^
 ||simplywall.st^
 ||gurufocus.com^
+||chittorgarh.com^
+||ipowatch.in^
+||elearnmarkets.com^
+||tradebrains.in^
 
 ! ===== 5. Global brokers =====
 ||interactivebrokers.com^
@@ -110,7 +122,7 @@
 ||schwab.com^
 ||fidelity.com^
 
-! ===== 6. Crypto exchanges, wallets, trackers =====
+! ===== 6. Crypto exchanges, wallets, trackers, news =====
 ||coindcx.com^
 ||wazirx.com^
 ||coinswitch.co^
@@ -122,8 +134,12 @@
 ||pi42.com^
 ||delta.exchange^
 ||binance.com^
+||binance.me^
+||bnbstatic.com^
 ||bybit.com^
+||bycsi.com^
 ||okx.com^
+||okex.com^
 ||kucoin.com^
 ||coinbase.com^
 ||kraken.com^
@@ -144,11 +160,14 @@
 ||metamask.io^
 ||coinmarketcap.com^
 ||coingecko.com^
+||coincodex.com^
 ||dexscreener.com^
 ||dextools.io^
 ||coinglass.com^
 ||coindesk.com^
 ||cointelegraph.com^
+||cryptonews.com^
+||invezz.com^
 ||decrypt.co^
 
 ! ===== 7. Forex brokers, tools & education =====
@@ -189,7 +208,7 @@
 ||polymarket.com^
 ||kalshi.com^
 
-! ===== OPTIONAL A: Mutual fund / investing apps (disabled) =====
+! ===== OPTIONAL A: Mutual fund / long-term investing apps (disabled) =====
 ! ||kuvera.in^
 ! ||etmoney.com^
 ! ||valueresearchonline.com^
