@@ -5,7 +5,6 @@
 ! Safety: Strictly isolates trading portals. Never blocks parent net-banking (e.g. hdfcbank.com, icicibank.com, sbi.co.in, kotak.com remain 100% untouched).
 ! Version: 2026-11-02-final-extended
 ! Total Active Rules: 390
-! Generated for: skasi (Windows Desktop)
 
 ! ===== 1. Indian Brokers, Trading Apps & Ecosystem =====
 ||zerodha.com^
