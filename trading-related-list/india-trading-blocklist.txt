@@ -1,0 +1,197 @@
+! Title: India Trading-Only Blocklist
+! Description: Brokers, exchanges, crypto, forex, binary options, prop firms, charting, screeners, trading news/education, algo tools
+! Format: AdGuard Home DNS rules (||domain^ also blocks all subdomains)
+! Version: 2026-11-02-v2
+! Lines starting with ! are comments. Optional sections at the bottom are OFF; remove the leading "! " to enable.
+
+! ===== 1. Indian brokers & trading apps =====
+||zerodha.com^
+||kite.trade^
+||streak.tech^
+||sensibull.com^
+||groww.in^
+||upstox.com^
+||angelone.in^
+||angelbroking.com^
+||dhan.co^
+||5paisa.com^
+||icicidirect.com^
+||hdfcsec.com^
+||kotaksecurities.com^
+||sharekhan.com^
+||motilaloswal.com^
+||paytmmoney.com^
+||fyers.in^
+||mstock.com^
+||flattrade.in^
+||shoonya.com^
+||finvasia.com^
+||aliceblueonline.com^
+||alicebluefinance.com^
+||nuvama.com^
+||iifl.com^
+||indiainfoline.com^
+||religareonline.com^
+||geojit.com^
+||anandrathi.com^
+||arihantcapital.com^
+||choiceindia.com^
+||choicebroking.in^
+||tradejini.com^
+||tradebulls.in^
+||samco.in^
+||pocketful.in^
+||bajajfinservsecurities.in^
+||sbicapsecurities.com^
+||axisdirect.in^
+||miraeassetcm.com^
+||indmoney.com^
+||smallcase.com^
+
+! ===== 2. Exchanges, depositories, index data =====
+||nseindia.com^
+||bseindia.com^
+||mcxindia.com^
+||ncdex.com^
+||niftyindices.com^
+||cdslindia.com^
+||nsdl.co.in^
+
+! ===== 3. Algo / options / backtesting tools =====
+||tradetron.tech^
+||algotest.in^
+||quantman.in^
+||definedge.com^
+||opstra.definedge.com^
+||tradingview.com^
+||metatrader4.com^
+||metatrader5.com^
+||mql5.com^
+||ninjatrader.com^
+||tradestation.com^
+||thinkorswim.com^
+||quantconnect.com^
+
+! ===== 4. Screeners, charts, market data & analysis =====
+||screener.in^
+||tickertape.in^
+||trendlyne.com^
+||chartink.com^
+||stockedge.com^
+||marketsmojo.com^
+||equitymaster.com^
+||tijorifinance.com^
+||valuepickr.com^
+||moneycontrol.com^
+||investing.com^
+||finviz.com^
+||stockanalysis.com^
+||stockcharts.com^
+||barchart.com^
+||marketwatch.com^
+||seekingalpha.com^
+||benzinga.com^
+||tradingeconomics.com^
+||macrotrends.net^
+||investopedia.com^
+||tipranks.com^
+||simplywall.st^
+||gurufocus.com^
+
+! ===== 5. Global brokers =====
+||interactivebrokers.com^
+||webull.com^
+||robinhood.com^
+||etoro.com^
+||ig.com^
+||plus500.com^
+||saxo.com^
+||tastytrade.com^
+||schwab.com^
+||fidelity.com^
+
+! ===== 6. Crypto exchanges, wallets, trackers =====
+||coindcx.com^
+||wazirx.com^
+||coinswitch.co^
+||mudrex.com^
+||giottus.com^
+||zebpay.com^
+||unocoin.com^
+||bitbns.com^
+||pi42.com^
+||delta.exchange^
+||binance.com^
+||bybit.com^
+||okx.com^
+||kucoin.com^
+||coinbase.com^
+||kraken.com^
+||bitget.com^
+||gate.io^
+||mexc.com^
+||htx.com^
+||bingx.com^
+||crypto.com^
+||bitfinex.com^
+||bitstamp.net^
+||gemini.com^
+||phemex.com^
+||bitmart.com^
+||dydx.exchange^
+||uniswap.org^
+||pancakeswap.finance^
+||metamask.io^
+||coinmarketcap.com^
+||coingecko.com^
+||dexscreener.com^
+||dextools.io^
+||coinglass.com^
+||coindesk.com^
+||cointelegraph.com^
+||decrypt.co^
+
+! ===== 7. Forex brokers, tools & education =====
+||exness.com^
+||xm.com^
+||fxcm.com^
+||forex.com^
+||oanda.com^
+||icmarkets.com^
+||pepperstone.com^
+||hfm.com^
+||fbs.com^
+||roboforex.com^
+||octafx.com^
+||avatrade.com^
+||babypips.com^
+||forexfactory.com^
+
+! ===== 8. Binary options =====
+||iqoption.com^
+||quotex.io^
+||olymptrade.com^
+||pocketoption.com^
+||binomo.com^
+||deriv.com^
+||expertoption.com^
+
+! ===== 9. Prop trading firms =====
+||ftmo.com^
+||fundednext.com^
+||the5ers.com^
+||topstep.com^
+||apextraderfunding.com^
+
+! ===== 10. Opinion / prediction trading =====
+||probo.in^
+||opinio.in^
+||polymarket.com^
+||kalshi.com^
+
+! ===== OPTIONAL A: Mutual fund / investing apps (disabled) =====
+! ||kuvera.in^
+! ||etmoney.com^
+! ||valueresearchonline.com^
+! ||coin.zerodha.com^
+! ||morningstar.in^
